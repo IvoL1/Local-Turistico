@@ -23,3 +23,23 @@
 	--accent-pink: #e5245e;
 	--accent-purple: #591b98;
 }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+body {
+	min-height: 100svh;
+	line-height: 1.5;
+}
