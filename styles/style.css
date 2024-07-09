@@ -73,5 +73,54 @@ body {
 	p:nth-child(3) {
 		font: var(--paragraph);
 		color: var(--text-secondary);
+		text-align: justify;
+	}
+}
+
+#list {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+
+#card-travel {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+
+	img {
+		border-radius: 1.75rem;
+	}
+}
+
+#content-card {
+	h3 {
+		margin-bottom: 0.25rem;
+		color: var(--text-primary);
+		font: var(--h3);
+		padding-left: 0.5rem;
+	}
+	p:nth-child(2) {
+		color: var(--text-secondary);
+		font: var(--paragraph);
+	}
+	p:nth-child(4) {
+		color: var(--text-secondary);
+		font: var(--headline);
+	}
+	li {
+		color: var(--accent-blue);
+		font: var(--headline);
+		padding-left: 0.3rem;
+	}
+
+	.purple {
+		color: var(--accent-purple);
+	}
+	.pink {
+		color: var(--accent-pink);
+	}
+	.orange {
+		color: var(--accent-orange);
 	}
 }
