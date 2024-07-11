@@ -116,13 +116,14 @@ body {
 		font: var(--paragraph);
 	}
 	p:nth-child(4) {
+		text-align: start;
 		color: var(--text-secondary);
 		font: var(--headline);
 	}
 	li {
 		color: var(--accent-blue);
 		font: var(--headline);
-		padding-left: 0.3rem;
+		padding-left: 0.5rem;
 	}
 
 	.purple {
